@@ -33,7 +33,10 @@
                     <div class="d-inline float-left mr-2 mt-3">
                         <p class="recommendTextCalification">Calificación</p>
                     </div>
-                    <div class="mt-3"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                    <div class="mt-3">
+                    	<div id="starsContainer" class="mt-3 starsContainer"><i class="fa fa-star" id="star1" data-rating="1"></i><i class="fa fa-star" id="star2" data-rating="2"></i><i class="fa fa-star" id="star3" data-rating="3"></i><i class="fa fa-star" id="star4" data-rating="4"></i><i class="fa fa-star" id="star5" data-rating="5"></i></div>
+                    	<input type="text" class="form-control invisible" value="0" id="starsCount" />
+                    </div>
                 </div>
                 <div class="col-1"></div>
                 <div class="col-3"><textarea class="form-control recommendTextarea" rows="7" placeholder="¡Escribe tus pensamientos acerca de la cafeteria!" id="thoughts"></textarea></div>
@@ -49,5 +52,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
+    <script src="js/recommendCoffe.js"></script>
     </body>
 </html>

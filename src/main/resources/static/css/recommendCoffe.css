@@ -77,3 +77,13 @@
   font-size: 25px;
 }
 
+
+.starSelected {
+  color: #FFB800 !important;
+}
+
+.fa-star {
+  color: gray;
+}
+
+
