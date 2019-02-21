@@ -2,9 +2,12 @@
 <html>
 <head> 
     <title>Getting Started: Serving Web Content</title> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/recommendCoffe.css">
     
 </head>
 
@@ -17,9 +20,29 @@
    <section>
    <p>Section of Fernando</p> 
    </section>
-   <section>
-   	<p>Section of Taboada</p>
-   </section>
+   
+   <section class="recommendCoffeContainer">
+        <h1 class="recommendTitle">¡Recomienda un café!</h1>
+        <form class="text-truncate">
+            <div class="row no-gutters fluid mt-5 mb-5">
+                <div class="col-2"></div>
+                <div class="col-3 leftInputsForm">
+                    <div class="recommendInputContainer"><input class="form-control" type="text" placeholder="Nombre" id="name"></div>
+                    <div class="recommendInputContainer"><input class="form-control" type="text" placeholder="Dirección/Ubicación" id="address"></div>
+                    <div class="recommendInputContainer"><input class="form-control" type="text" placeholder="Redes sociales" id="social"></div>
+                    <div class="d-inline float-left mr-2 mt-3">
+                        <p class="recommendTextCalification">Calificación</p>
+                    </div>
+                    <div class="mt-3"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></div>
+                </div>
+                <div class="col-1"></div>
+                <div class="col-3"><textarea class="form-control recommendTextarea" rows="7" placeholder="¡Escribe tus pensamientos acerca de la cafeteria!" id="thoughts"></textarea></div>
+                <div class="col-3"></div>
+                <div class="col-12 text-center"><button class="btn btn-primary text-center recommendButton" type="submit">OK</button></div>
+            </div>
+        </form>
+    </section>
+   
    <section>
    	<p>Section of Marco</p>
    </section>
