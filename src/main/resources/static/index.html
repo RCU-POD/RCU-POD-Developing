@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/recommendCoffe.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/welcome.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
     
 </head>
 
@@ -19,16 +20,83 @@
 
 <body>
 	<section class="welcome text-xs-center">
-        <div class="container mx-auto">
+        <div class="contain mx-auto">
             <img class="img-fluid" src="images/logo.png" alt="">
             <h1 class="title-h1 display-4 m-b-3">Beneficio del caf&eacute;</h1>
-            <div class="mx-auto" id="arrow"><div>
+            <div class="mx-auto" id="arrow"></div>
         </div>    
    	</section>
    	
-   <section>
-   <p>Section of Fernando</p> 
-   </section>
+   	<section class="slide text-xs-center"> 
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class=" container carousel-inner">
+
+                <div class="row carousel-item active">
+                <div class="slidel d-block col-xs-12">
+                    <div class="description">
+                    <h3 class="title-h3 display-4 m-b-3">Bueno para el corazón</h3>
+                    <p class="paragraph">El consumo moderado de café (2 tazas al día) protege contra la insuficiencia cardiaca. En concreto, la disminución del riesgo representó un 11% en comparación con los que no consumían café.</p>
+                    <p class="paragraph"><a href="https://desarrollorcu.wordpress.com/2019/01/22/beneficios-del-cafe/"><button type="button" class="btn2 btn btn-light">Sigue ></button></a></p>
+                    </div>
+                </div>
+                <img class="slider d-block col-xs-12 " src="images/cafe5.jpg" alt="First slide">
+                </div>
+
+                <div class="row carousel-item">
+                <div class="slidel d-block col-xs-12">
+                    <div class="description">
+                    <h3 class="title-h3 display-4 m-b-3">Protege la visión</h3>
+                    <p class="paragraph">El consumo de café puede proteger contra el deterioro de la visión e incluso de la ceguera.</p>
+                    <p class="paragraph"><a href="https://desarrollorcu.wordpress.com/2019/01/22/beneficios-del-cafe/"><button type="button" class="btn2 btn btn-light">Sigue ></button></a></p>
+                    </div>
+                </div>
+                <img class="slider d-block col-xs-12" src="images/cafe7.jpg" alt="Second slide">
+                </div>
+
+                <div class="row carousel-item">
+                <div class="slidel d-block col-xs-12">
+                    <div class="description">
+                    <h3 class="title-h3 display-4 m-b-3">Es antioxidante</h3>
+                    <p class="paragraph">El café no es solo cafeína, también contiene sustancias con propiedades antioxidantes. Los flavonoides actúan como defensa ante posibles enfermedades, además retrasan el envejecimiento de las células.</p>
+                    <p class="paragraph"><a href="https://desarrollorcu.wordpress.com/2019/01/22/beneficios-del-cafe/"><button type="button" class="btn2 btn btn-light">Sigue ></button></a></p>
+                    </div>
+                </div>
+                <img class="slider d-block col-xs-12" src="images/cafe9.jpg" alt="Second slide">
+                </div>
+                
+                <div class="row carousel-item">
+                    <div class="slidel d-block col-xs-12">
+                        <div class="description">
+                        <h3 class="title-h3 display-4 m-b-3">Cerebro afortunado</h3>
+                        <p class="paragraph">El efecto más famoso de la cafeína sobre nuestro organismo es el de ser un estimulante. Con un consumo habitual el cerebro y sus funciones cognitivas se benefician.</p>
+                        <p class="paragraph"><a href="https://desarrollorcu.wordpress.com/2019/01/22/beneficios-del-cafe/"><button type="button" class="btn2 btn btn-light">Sigue ></button></a></p>
+                        </div>
+                    </div>
+                <img class="slider d-block col-xs-12" src="images/cafe1.jpg" alt="Third slide">
+                </div>
+
+                <div class="row carousel-item">
+                    <div class="slidel d-block col-xs-12">
+                        <div class="description">
+                        <h3 class="title-h3 display-4 m-b-3">Antidepresivo</h3>
+                        <p class="paragraph">La cafeína ayuda a liberar dopamina y serotonina, neurotransmisores encargados de regular el estado de ánimo. </p>
+                        <p class="paragraph"><a href="https://desarrollorcu.wordpress.com/2019/01/22/beneficios-del-cafe/"><button type="button" class="btn2 btn btn-light">Sigue ></button></a></p>
+                        </div>
+                    </div>
+                <img class="slider d-block col-xs-12" src="images/cafe8.jpg" alt="Third slide">
+                </div>
+
+           </div>
+           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="sr-only">Previous</span>
+           </a>
+           <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="sr-only">Next</span>
+           </a>
+       </div>
+    </section>
    
    <section class="recommendCoffeContainer">
         <h1 class="recommendTitle">¡Recomienda un café!</h1>
