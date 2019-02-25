@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'open-sans-r';
+    src: url("../assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+
+    font-family: 'open-sans-l';
+    src: url("../assets/fonts/Open_Sans/OpenSans-Light.ttf");
+
+    font-family: 'aleo-r';
+    src: url("../assets/fonts/aleo/Aleo-Regular.otf");
+
+    font-family: 'aleo-b';
+    src: url("../assets/fonts/aleo/Aleo-Bold.otf");
+}
+
+.slide {
+    height: 100vh!important;
+}
+
+.slider {
+    height: 50vh;
+    width: 100vw;
+}
+.slidel {
+    height: 50vh;
+    width: 100vw;
+}
+
+.description {
+    margin-top: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    
+}
+
+.title-h3{ 
+    font-family: 'aleo-r';
+    color: black;
+    font-size: 30px !important;
+    text-align: center;   
+}
+
+.paragraph {
+    font-family: 'open-sans-r';
+    color: black;
+    font-size: 15px !important;
+    text-align: center;
+    
+}
+
+
+
+.btn2 {
+    font-family: 'aleo-b';
+    font-size: 35px !important;
+    display:block;
+    margin:auto;
+    color: #FFB800!important;
+}
+
+
+@media (min-width:768px) {
+
+    .slider {
+        height: 100vh;
+        float: right;
+        width: 50%;
+    }
+    .slidel {
+        height: 100vh;
+        float: left;
+        width: 50%;
+    }
+    
+    .description {
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+    
+    .title-h3{
+        color: black;
+        font-size: 55px !important;
+        text-align: center;   
+    }
+    
+    .paragraph {
+        color: black;
+        font-size: 30px !important;
+        text-align: center;
+    }
+    
+
+    .btn {
+        font-family: 'aleo-b';
+        font-size: 35px !important;
+        display:block;
+        margin:auto;
+        color: #FFB800!important;
+    }
+
+
+}
+
+@media (min-width:1024px) {
+
+    .slider {
+        height: 100vh;
+        float: right;
+        width: 50%;
+    }
+    .slidel {
+        height: 100vh;
+        float: left;
+        width: 50%;
+    }
+    
+    .description {
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+    
+    .title-h3{
+        color: black;
+        font-size: 60px !important;
+        text-align: center;   
+    }
+    
+    .paragraph {
+        color: black;
+        font-size: 35px !important;
+        text-align: center;
+    }
+    
+    .contain {
+        max-width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-left: auto;
+    }
+
+    .btn {
+        font-family: 'aleo-b';
+        font-size: 35px !important;
+        display:block;
+        margin:auto;
+        color: #FFB800!important;
+    }
+
+
+}
+
+@media (min-width:1280px) {
+
+    .slider {
+        height: 100vh;
+        float: right;
+        width: 50%;
+    }
+    .slidel {
+        height: 100vh;
+        float: left;
+        width: 50%;
+    }
+    
+    .description {
+        padding-left: 25px;
+        padding-right: 50px;
+        padding-top: 30px;
+    }
+    
+    .title-h3{
+        color: black;
+        font-size: 70px !important;
+        text-align: center;   
+    }
+    
+    .paragraph {
+        color: black;
+        font-size: 40px !important;
+        text-align: center;
+    }
+    
+
+    .btn {
+        font-family: 'aleo-b';
+        font-size: 35px !important;
+        display:block;
+        margin:auto;
+        color: #FFB800!important;
+    }
+
+
+}
+
+
+
+
