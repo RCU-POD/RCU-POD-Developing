@@ -28,8 +28,9 @@
 .description {
     margin-top: auto;
     padding-left: 25px;
-    padding-right: 25px;
+   
     padding-top: 25px;
+    text-align: center; 
     
 }
 
@@ -37,22 +38,22 @@
     font-family: 'aleo-r';
     color: black;
     font-size: 30px !important;
-    text-align: center;   
+      
 }
 
 .paragraph {
     font-family: 'open-sans-r';
     color: black;
     font-size: 15px !important;
-    text-align: center;
+    
     
 }
 
 
 
-.btn2 {
+.btn-light {
     font-family: 'aleo-b';
-    font-size: 35px !important;
+    font-size: 25px !important;
     display:block;
     margin:auto;
     color: #FFB800!important;
@@ -74,7 +75,7 @@
     
     .description {
         padding-left: 25px;
-        padding-right: 50px;
+        
         padding-top: 30px;
     }
     
@@ -91,7 +92,7 @@
     }
     
 
-    .btn {
+    .btn-light {
         font-family: 'aleo-b';
         font-size: 35px !important;
         display:block;
@@ -117,7 +118,7 @@
     
     .description {
         padding-left: 25px;
-        padding-right: 50px;
+        
         padding-top: 30px;
     }
     
@@ -140,7 +141,7 @@
         margin-left: auto;
     }
 
-    .btn {
+    .btn-light {
         font-family: 'aleo-b';
         font-size: 35px !important;
         display:block;
@@ -166,7 +167,7 @@
     
     .description {
         padding-left: 25px;
-        padding-right: 50px;
+        
         padding-top: 30px;
     }
     
@@ -183,7 +184,7 @@
     }
     
 
-    .btn {
+    .btn-light {
         font-family: 'aleo-b';
         font-size: 35px !important;
         display:block;
