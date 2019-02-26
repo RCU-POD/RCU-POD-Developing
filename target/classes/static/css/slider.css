@@ -51,7 +51,7 @@
 
 
 
-.btn-light {
+.btn-link {
     font-family: 'aleo-b';
     font-size: 25px !important;
     display:block;
@@ -91,14 +91,14 @@
         text-align: center;
     }
     
-
-    .btn-light {
-        font-family: 'aleo-b';
-        font-size: 35px !important;
-        display:block;
-        margin:auto;
-        color: #FFB800!important;
-    }
+	.btn-link {
+    font-family: 'aleo-b';
+    font-size: 25px !important;
+    display:block;
+    margin:auto;
+    color: #FFB800!important;
+	}
+   
 
 
 }
@@ -140,14 +140,14 @@
         padding-left: 15px;
         margin-left: auto;
     }
-
-    .btn-light {
-        font-family: 'aleo-b';
-        font-size: 35px !important;
-        display:block;
-        margin:auto;
-        color: #FFB800!important;
-    }
+    
+    .btn-link {
+    font-family: 'aleo-b';
+    font-size: 25px !important;
+    display:block;
+    margin:auto;
+    color: #FFB800!important;
+	}
 
 
 }
@@ -184,13 +184,13 @@
     }
     
 
-    .btn-light {
-        font-family: 'aleo-b';
-        font-size: 35px !important;
-        display:block;
-        margin:auto;
-        color: #FFB800!important;
-    }
+  	.btn-link {
+    font-family: 'aleo-b';
+    font-size: 25px !important;
+    display:block;
+    margin:auto;
+    color: #FFB800!important;
+	}
 
 
 }
