@@ -1,9 +1,7 @@
-.container{
+#contactSection{
     margin: 0px;
     /*padding left: 10%;*/
     padding-right: 10%;
-}
-#contactSection{
     margin-top: 4em;
 }
 h2{
