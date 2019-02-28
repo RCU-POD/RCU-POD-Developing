@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<CoffeeBenefits-DEV>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.rcu.conffebeneffits.Application",
+            "projectName": "CoffeeBenefits-DEV",
+            "args": ""
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-Application<CoffeeBenefits>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.rcu.conffebeneffits.Application",
+            "projectName": "CoffeeBenefits",
+            "args": ""
+        }
+    ]
+}
