@@ -65,12 +65,16 @@
   font-size: 35px;
 }
 
-.buttonForm:hover {
+.recommendButton:hover {
   background-color: #FFB800;
 }
 
-.buttonForm:active {
+.recommendButton:active {
   background-color: #FFB800;
+}
+.recommendButton:focus {
+  background-color: #FFB800;
+  box-shadow: 0 0 0 0.2rem rgba(255,184,0,0.7);
 }
 
 .fa.fa-star {
