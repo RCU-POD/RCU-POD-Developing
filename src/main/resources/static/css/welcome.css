@@ -1,0 +1,140 @@
+@font-face {
+    font-family: 'Intro-Script-R';
+    src: url("../assets/fonts/intro-script-r/IntroScriptR-H2Base.otf");
+}
+
+
+.welcome {
+    background:url("../images/360Fondo.png");
+    background-size: cover;
+    height: 100vh;  
+    padding-top: 51px !important;
+}
+
+.img-fluid {
+    width: 300px;
+    display:block;
+    margin:auto;
+}
+
+
+.title-h1 {
+    font-family: 'Intro-Script-R';
+    font-size: 75px !important;
+    text-align: center;
+    color: #FFB800;
+}
+
+#arrow {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 22.5px 16px 0 16px;
+    border-color: #FFB800 transparent transparent transparent;
+    border-radius: 20px;
+}
+
+/* Media Queries*/
+
+@media (min-width:768px)  {
+
+    .welcome {
+        background:url("../images/768Fondo.png");
+        background-size: cover!important;
+        height: 100vh;  
+        padding-top: 100px!important;
+    }
+
+    .img-fluid {
+        width: 300px;
+        display:block;
+        margin:auto;
+    }
+    
+    
+    .title-h1 {
+        font-family: 'Intro-Script-R';
+        font-size: 100px !important;
+        text-align: center;
+        color: #FFB800 !important;
+    }
+    
+    #arrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 35px 25px 0 25px;
+        border-color: #FFB800 transparent transparent transparent;
+        border-radius: 20px;
+    }
+    
+}
+
+@media (min-width:1024px)  {
+
+    .welcome {
+        background:url("../images/1024Fondo.png");
+        background-size: cover!important;
+        height: 100vh;  
+        padding-top: 100px!important;
+    }
+
+    .img-fluid {
+        width: 300px;
+        display:block;
+        margin:auto;
+    }
+    
+    
+    .title-h1 {
+        font-family: 'Intro-Script-R';
+        font-size: 100px !important;
+        text-align: center;
+        color: #FFB800 !important;
+    }
+    
+    #arrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 35px 25px 0 25px;
+        border-color: #FFB800 transparent transparent transparent;
+        border-radius: 20px;
+    }
+    
+}
+
+@media (min-width:1280px)  {
+
+    .welcome {
+        background:url("../images/1280Fondo.png");
+        background-size: cover!important;
+        height: 100vh;  
+        padding-top: 150px!important;
+    }
+
+    .img-fluid {
+        width: 300px;
+        display:block;
+        margin:auto;
+
+    }
+    
+    
+    .title-h1 {
+        font-family: 'Intro-Script-R';
+        font-size: 100px !important;
+        text-align: center;
+        color: #FFB800!important;
+    }
+    
+    #arrow {
+        width: 0;
+        height: 0;
+        border-style: solid;
+        border-width: 35px 25px 0 25px;
+        border-color: #FFB800 transparent transparent transparent;
+        border-radius: 20px;
+    }
+    
+}
