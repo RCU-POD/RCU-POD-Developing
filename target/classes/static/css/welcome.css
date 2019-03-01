@@ -136,5 +136,38 @@
         border-color: #FFB800 transparent transparent transparent;
         border-radius: 20px;
     }
+
+    @media (min-width:1920px)  {
+
+        .welcome {
+            background:url("../images/1280Fondo.png");
+            background-size: cover!important;
+            height: 100vh;  
+            padding-top: 250px!important;
+        }
+    
+        .img-fluid {
+            width: 450px;
+            display:block;
+            margin:auto;
+    
+        }
+        
+        
+        .title-h1 {
+            font-family: 'Intro-Script-R';
+            font-size: 170px !important;
+            text-align: center;
+            color: #FFB800!important;
+        }
+        
+        #arrow {
+            width: 0;
+            height: 0;
+            border-style: solid;
+            border-width: 55px 45px 0 45px;
+            border-color: #FFB800 transparent transparent transparent;
+            border-radius: 20px;
+        }
     
 }
