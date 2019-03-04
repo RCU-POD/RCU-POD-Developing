@@ -1,24 +1,24 @@
 
 $(".image1").click(function(){
-  setModalGalery(".image1","imagen1");  
+  setModalGalery(".image1","FOTOGRAFÍA: de Chevanon Photography, de Pexels.");  
 })
 $(".image2").click(function(){
-    setModalGalery(".image2","imagen2");  
+    setModalGalery(".image2","FOTOGRAFÍA: de Daria Shevtsova, de Pexels.");  
 })
 $(".image3").click(function(){
-    setModalGalery(".image3","imagen3");  
+    setModalGalery(".image3","FOTOGRAFÍA: de Elina Sazonova, de Pexels.");  
 })
 $(".image4").click(function(){
-  setModalGalery(".image4","imagen4");  
+  setModalGalery(".image4","FOTOGRAFÍA: de Olle, de Pexels.");  
 })
 $(".image5").click(function(){
-    setModalGalery(".image5","imagen5");  
+    setModalGalery(".image5","FOTOGRAFÍA: de Free-Photos, de Pixabay.");  
 })
 $(".image6").click(function(){
-    setModalGalery(".image6","imagen6");  
+    setModalGalery(".image6","FOTOGRAFÍA: de kaboompics, de Pixabay.");  
 })
 $(".image7").click(function(){
-    setModalGalery(".image7","imagen7");  
+    setModalGalery(".image7","FOTOGRAFÍA: de Kaboompics .com, de Pexels.");  
 })
 
 var setModalGalery = function(image,text){

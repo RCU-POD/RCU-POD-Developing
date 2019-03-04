@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'aleo-b';
+    src: url("../assets/fonts/aleo/Aleo-Bold.otf");
+    
+    font-family: 'aleo-r';
+    src: url("../assets/fonts/aleo/Aleo-Regular.otf");
+}
+
+.split {
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
+	top: 50%;
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.down {
+	right: 0;
+	background-color:#137C8B;	
+}
+
+#centered {
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #FFFFFF;
+	z-index: 1;
+}
+
+#centered img {
+	width: 380px;
+}
+
+a.btn.btn-outline-primary {
+	border-color: #FFFFFF;
+	background-color: #137C8B;
+	font-family: 'aleo-b';
+	color: #FFFFFF;
+}
+
+a.btn.btn-outline-primary:hover {
+	border-color: #FFB800;
+	background-color: #FFB800;
+	font-family: 'aleo-b';
+}
+
+h2, h3 {
+	font-family: 'aleo-r';
+}
+
+@media only screen and (max-height: 600px) {
+	.split {
+		height: 70%;
+		width: 100%;
+		position: absolute;
+		z-index: 1;
+		top: 54%;
+		overflow-x: hidden;
+		padding-top: 20px;
+	}
+	
+	#centered img {
+		width: 290px;
+	}
+	
+	#centered {
+		position: absolute;
+		top: 65%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		color: #FFFFFF;
+		z-index: 1;
+	}
+}
