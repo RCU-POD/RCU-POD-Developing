@@ -44,8 +44,20 @@ footer{
     display: flex;
 }
 
+.rowFootSpecial{
+    display: flex;
+}
+
 .rowFoot label{
     margin-left: 20px;
+}
+
+.rowFootSpecial{
+    margin-left: 20px;
+}
+
+.rowFootSpecial:hover label{
+    color: #FFB800;
 }
 
 .rowFoot2{
@@ -68,12 +80,22 @@ footer{
     color: black;
 }
 
+.rowFoot3Special{
+    display: flex;
+    color: black;
+}
+
 .rowFoot3:hover{
     display: flex;
     color: #FFB800;
 }
 
 .rowFoot3 label{
+    margin-left: 20px;
+    max-width: 140px;
+}
+
+.rowFoot3Special label{
     margin-left: 20px;
     max-width: 140px;
 }
