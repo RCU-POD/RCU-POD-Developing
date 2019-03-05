@@ -1,0 +1,76 @@
+
+.container-4{
+    padding-top:0px;
+    overflow: hidden;
+    width: 500px;
+    outline: none;
+    background-color:none;
+    border: 0;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.container-4 input#inputSearch{
+    width: 500px;
+    outline: 0px;
+    height: 50px;
+    background: #2E1B12;
+    border-color:#ffffff; 
+    font-size: 10pt;
+    float: left;
+    color: #ffffff;
+    padding-left: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    
+}
+
+.container-4 input#inputSearch::-webkit-input-placeholder {
+    color: #ffffff;
+}
+  
+.container-4 input#inputSearch:-moz-placeholder { /* Firefox 18- */
+    color: #ffffff;  
+}
+  
+.container-4 input#inputSearch::-moz-placeholder {  /* Firefox 19+ */
+    color: #ffffff;  
+}
+  
+.container-4 input#inputSearch:-ms-input-placeholder {  
+    color: #ffffff;  
+}
+
+.container-4 button.icon{
+    margin-top: 2px;
+    -webkit-border-top-right-radius: 30px;
+    -webkit-border-bottom-right-radius: 30px;
+    -moz-border-radius-topright: 30px;
+    -moz-border-radius-bottomright: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: -50px;
+    
+    border: 2px;
+    background: #2E1B12;
+    height: 46px;
+    width: 49px;
+    color: #ffffff;
+    opacity: 1;
+    outline: 0px;
+    font-size: 15px;
+   
+}
+
+.container-4:hover button.icon, .container-4:active button.icon, .container-4:focus button.icon{
+    outline: 0px;
+    opacity: 1;
+    border-color: #ffffff;
+}
+ 
+.container-4:hover button.icon:hover{
+    background: #FFB800;
+    outline: 0px;
+}

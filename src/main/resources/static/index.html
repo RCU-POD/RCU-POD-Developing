@@ -17,7 +17,9 @@
     <link href="https://fonts.googleapis.com/css?family=Aleo:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="css/stylesSearch.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
 </head>
 
 <body>
@@ -188,10 +190,12 @@
            
            <div class="row center">    
                <nav class="navbar navbar-light">
-               <form class="form-inline">
-                   <input class="form-control design mr-sm-2" type="search" placeholder="Coffe shop, location, type of coffe, etc." aria-label="Search">
-                   <button type="button" class="btn btn-link"><span class="color"><i class="fas fa-search"></i></span></button>
-               </form>
+                <form class="form-inline"> 
+                  <div class="container-4">
+                    <input type="search" id="inputSearch" placeholder="Cofee shop, location, type of coffe, etc." />
+                    <button class="icon"><i class="fa fa-search"></i></button>
+                  </div>
+              </form>
                </nav>
            </div>
            <div class="cafeteria">
@@ -349,5 +353,8 @@
     <script src="js/scripts.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/recommendCoffe.js"></script>
+    <script src="js/shieldui-all.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/searchcoffe.js"></script>
     </body>
 </html>

@@ -13,10 +13,13 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/search_coffe.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/contact.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/credits.css">
     <link href="https://fonts.googleapis.com/css?family=Aleo:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">    
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="css/stylesSearch.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
 </head>
 
 <body>
@@ -187,10 +190,12 @@
            
            <div class="row center">    
                <nav class="navbar navbar-light">
-               <form class="form-inline">
-                   <input class="form-control design mr-sm-2" type="search" placeholder="Coffe shop, location, type of coffe, etc." aria-label="Search">
-                   <button type="button" class="btn btn-link"><span class="color"><i class="fas fa-search"></i></span></button>
-               </form>
+                <form class="form-inline"> 
+                  <div class="container-4">
+                    <input type="search" id="inputSearch" placeholder="Cofee shop, location, type of coffe, etc." />
+                    <button class="icon"><i class="fa fa-search"></i></button>
+                  </div>
+              </form>
                </nav>
            </div>
            <div class="cafeteria">
@@ -242,11 +247,11 @@
 		</form>
 	</section>
 
- <section class="container text-xs-center" id="contactSection">
-    <!--<table class="table" id="contactTable" cellpadding="0" cellspacing="0">-->
-      <div class="row">
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <div class="social-network ">
+ <section class="container" id="contactSection">
+    <table class="table" id="contactTable" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <div class="social-network">
             <h2 class="followUs">¡Síguenos!</h2>
 
             <ul class="square">
@@ -255,9 +260,9 @@
               <li class="fab fa-foursquare fa-3x"></li>
             </ul>
           </div>
-        </div>
+        </td>
 
-        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+        <td class="tdRight">
           <h2 class="contactUs">¡Contáctanos!</h2>
           <form class="contactForm" action="/action_page.php">
             <div class="form-horizontal">
@@ -272,11 +277,75 @@
             </div>
             <button type="submit" class="btn btn-default" id="btnContact">ENVÍA</button>
           </form>
-        </div>
-      </div>
-    <!--</table>-->
+        </td>
+      </tr>
+    </table>
     <a href=#><i class='fas fa-play'></i></a>
   </section>
+
+  <footer>
+
+    <div class="container-footer-all">
+
+      <div class="container-body">
+
+        <div class="colum1">
+
+          <img src="images/BeneficioLogo.png">
+        </div>
+
+        <div class="colum2">
+          <div class="rowFoot">
+            <label>Project Web By</label>
+          </div>
+          <div class="rowFoot">
+            <label>RCU Development Pod</label>
+          </div>
+          <div class="rowFootSpecial">
+            <label>Meet the team!</label>
+          </div>
+          <div class="rowFoot">
+            <label>2019. All rights reserved</label>
+          </div>
+        </div>
+
+        <div class="colum3">
+          <div class="rowFoot2">
+            <label>Privacy politics</label>
+          </div>
+          <div class="rowFoot2">
+            <label>Legal terms</label>
+          </div>
+          <div class="rowFoot2">
+            <label>FAQ</label>
+          </div>
+          <div class="rowFoot2">
+            <label>Credits</label>
+          </div>
+
+        </div>
+
+        <div class="colum4">
+          <div class="rowFoot3Special">
+            <label>¡Síguenos!</label>
+          </div>
+          <div class="rowFoot3">
+            <label>Facebook</label>
+          </div>
+          <div class="rowFoot3">
+            <label>Instagram</label>
+          </div>
+          <div class="rowFoot3">
+            <label>Foursquare</label>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
 
    
     <script src="js/jquery.min.js"></script>
@@ -284,5 +353,8 @@
     <script src="js/scripts.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/recommendCoffe.js"></script>
+    <script src="js/shieldui-all.min.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/searchcoffe.js"></script>
     </body>
 </html>
