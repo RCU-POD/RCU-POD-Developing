@@ -47,14 +47,7 @@
     grid-area: 11/7/span 14/ span 4;
 }
 
-@media screen and (max-width: 700px) {
-  .gallery {
-          grid-auto-rows: 1.5em;
-  }
-}
-/*-----------------------------------------------------------------*/
 /*Eli's Code-------------------------------------------------------*/
-
 .image1 {
     background-image: url('../images/gallery/adult-bar-business-302902.jpg');
 }
@@ -146,10 +139,30 @@
     font-size: 50px;
     color: #ffffff
 }
-@media screen and (max-width: 700px) {
-    .text-image-gallery-info {
-        font-size: 0.8em;
-  }
-}
 
-/*-----------------------------------------------------------------*/
+/*Responsive-------------------------------------------------------------*/
+@media screen and (max-width: 900px) {
+    .gallery {
+            grid-auto-rows: 1.3em;
+    }
+    .text-image-gallery-info {
+        font-size: 0.7em;
+    }
+  }
+@media screen and (max-width: 700px) {
+    .gallery {
+          grid-auto-rows: 1em;
+    }
+    .text-image-gallery-info {
+        font-size: 0.65em;
+    }
+}
+@media screen and (max-width: 500px) {
+    .gallery {
+            grid-auto-rows: 0.8em;
+    }
+    .text-image-gallery-info {
+        font-size: 0.5em;
+  }
+  }
+  
