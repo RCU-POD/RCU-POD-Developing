@@ -23,6 +23,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesSearch.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/philosophy.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/graphic.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/rateModal.css">
 </head>
 
 <body>
@@ -325,15 +326,44 @@
                         <p class="recommendTextCalification">Califica!</p>
                       </div>
                       
-                      <div id="starsContainer" class="starsContainer">
-                        <i class="fa fa-star" id="star1" data-rating="1"></i>
-                        <i class="fa fa-star" id="star2" data-rating="2"></i>
-                        <i class="fa fa-star" id="star3" data-rating="3"></i>
-                        <i class="fa fa-star" id="star4" data-rating="4"></i>
-                        <i class="fa fa-star" id="star5" data-rating="5"></i>
+                      <div id="starsContainer" class="starsContainerCali">
+                        <i class="fa fa-star" id="star1Cali" data-rating="1" data-toggle="modal" data-target="#exampleModalCenter"></i>
+                        <i class="fa fa-star" id="star2Cali" data-rating="2" data-toggle="modal" data-target="#exampleModalCenter"></i>
+                        <i class="fa fa-star" id="star3Cali" data-rating="3" data-toggle="modal" data-target="#exampleModalCenter"></i>
+                        <i class="fa fa-star" id="star4Cali" data-rating="4" data-toggle="modal" data-target="#exampleModalCenter"></i>
+                        <i class="fa fa-star" id="star5Cali" data-rating="5" data-toggle="modal" data-target="#exampleModalCenter"></i>
                       </div>
                   </div>
-              </div>
+                  <!-- Modal Calificación -->
+	              <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog">
+	  				<div class="modal-dialog" id="modal-center" role="document">
+	    				<div class="modal-content text-center"  id="rate-content">
+	      					<div class="modal-body">
+	      						<button type="button" class="close float-right" data-dismiss="modal" aria-label="Close">
+	          						<span aria-hidden="true" class="rate-close">
+	          							<i class="fa fa-times"></i>
+	          						</span>
+	        					</button>
+	      						<form>
+	      							<h3>¿Calificas este café con # estrellas?</h3>
+		      						<!-- Estrellas -->
+		      						<div id="startContainer" class="startsContainerRate">
+		      							<i class="fa fa-star" id="star1Rate" data-rating="1"></i>
+		                      			<i class="fa fa-star" id="star2Rate" data-rating="2"></i>
+		                        		<i class="fa fa-star" id="star3Rate" data-rating="3"></i>
+		                        		<i class="fa fa-star" id="star4Rate" data-rating="4"></i>
+		                        		<i class="fa fa-star" id="star5Rate" data-rating="5"></i>
+		      						</div>
+		      						<!-- Fin Estrellas -->
+		        					<h5>¿Quieres dejar tu opinión sobre el mismo?</h5>
+		        					<textarea class="form-control" id="rate-textarea"rows="3" placeholder="Escribe tu comentario"></textarea>
+		        					<button type="submit" class="btn btn-primary rate-button">¡LISTO!</button>
+	      						</form>
+	      					</div>
+	    				</div>
+	  				</div>
+              	</div>
+              	<!-- Fin modal -->
           </div>
       </div>
   </section>
@@ -348,7 +378,7 @@
             		<div class="recommendInputContainer"><input class="form-control" type="text" placeholder="Dirección/Ubicación" id="address"></div>
             		<div class="recommendInputContainer"><input class="form-control" type="text" placeholder="Redes sociales" id="social"></div>
                     
-	            	<div class="d-inline float-left mr-2">
+	            	<!-- <div class="d-inline float-left mr-2">
 	            		<p class="recommendTextCalification">Calificación</p>
 	            	</div>
 	            	
@@ -358,7 +388,7 @@
 	            		<i class="fa fa-star" id="star3" data-rating="3"></i>
 	            		<i class="fa fa-star" id="star4" data-rating="4"></i>
 	            		<i class="fa fa-star" id="star5" data-rating="5"></i>
-	            	</div>
+	            	</div> -->
 	            	<input type="text" class="form-control invisible" value="0" id="starsCount" />
 	        	</div>
 	        	

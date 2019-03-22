@@ -39,6 +39,7 @@ a.btn.btn-outline-primary {
 	background-color: #137C8B;
 	font-family: 'aleo-b';
 	color: #FFFFFF;
+	font-weight: bold;
 }
 
 a.btn.btn-outline-primary:hover {
