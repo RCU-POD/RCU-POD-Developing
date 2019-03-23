@@ -11,243 +11,133 @@
     font-family: 'aleo-b';
     src: url("../assets/fonts/aleo/Aleo-Bold.otf");
 }
-
-.slide {
-    /*height: 100vh!important;*/
-    margin-left: 0;
-    margin-right: 0!important;
+#slide .carousel_size {
+    width: 100%!important;
 }
 
-.slider {
-    height: 55vh;
+#slide {
+    height: 100vh!important;
+    
+}
+
+#slide .slider {
+    height: 60vh;
     width: 100vw;
 }
-.slidel {
-    height: 45vh;
+#slide .slidel {
+    height: 40vh;
     width: 100vw;
     
 }
 
-.description {
-    padding-left: 30px;
-    padding-top: 45px!important;
+#slide .description {
+    padding-left: 20%!important;
+    padding-right: 20%!important;
+    padding-top: 10%!important;
+    padding-bottom: 10%!important;
     text-align: center; 
 }
 
-.title-h3{ 
-    font-family: 'aleo-r';
-    color: black;
-    font-size: 30px !important;
+#slide .title-h3{ 
+    font-family: 'Aleo';
+    color: #137C8B;
+    font-size: 23px !important;
 }
 
-.paragraph {
-    font-family: 'open-sans-r';
+#slide .paragraph {
+    font-family: 'Open Sans';
     color: black;
-    font-size: 15px !important;
+    font-size: 18px !important;
+    text-align: center;
 }
 
-.btn-link {
-    font-family: 'aleo-b';
+#slide .btn-link {
+    font-family: 'Aleo';
     font-size: 25px !important;
     display:block;
     margin:auto;
     color: #FFB800!important;
+    float: right;
 }
 
-.center {
-	margin-right: 0 !important;
-	padding-right: 0 !important;
+#slide .center {
+	margin: 0!important;
+    padding: 0!important;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    height: 100px;
-    width: 100px;
-    outline: black;
-    background-size: 100%, 100%;
-    border-radius: 50%;
-    /*border: 1px solid black;*/
+
+    visibility: visible!important;
     background-image: none;
 }
 
-.carousel-control-next-icon:after
-{
-    content: '>';
-    font-size: 55px;
-    font-weight: bold;
-    color:#FFB800;
-}
 
-.carousel-control-prev-icon:after {
-    content: '<';
-    font-size: 55px;
-    font-weight: bold;
-    color:#FFB800;
-}
-
-@media (min-width:768px) {
-
-    .slider {
-        height: 100vh;
-        width: 55%;
-    }
-    .slidel {
-        padding-top: 10px!important;
-        height: 100vh;
-        width: 45%;
-    }
-    
-    .description {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 0px;
-        text-align: center;
-    }
-    
-    .title-h3{
-        color: black;
-        font-size: 35px !important;
-        text-align: center;   
-    }
-    
-    .paragraph {
-        color: black;
-        font-size: 25px !important;
-        text-align: center;
-    }
-    
-	.btn-link {
-    font-family: 'aleo-b';
-    font-size: 25px !important;
-    display:block;
-    margin:auto;
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    width: 20%;
     color: #FFB800!important;
-	}
+    text-align: center;
+    opacity: 0;
+    font-size: 60px;
+    bottom: 10%;
+}
+
+@media (min-width:720px) {
+    #slide {
+        height: 75vh!important;
+        margin: 0;
+    }
+
+    #slide .slider {
+        height: 75vh;
+        width: 50%;
+    }
+    #slide .slidel {
+        /*padding-top: 10px!important;*/
+        height: 75vh;
+        width: 50%;
+    }
+    
+    #slide .description {
+        padding-left: 30%!important;
+        padding-right: 25%!important;
+        /*padding-top: 200px;*/
+        margin-top: 10%;
+        margin-bottom: 30%;
+    }
+    
+    #slide .title-h3{
+        color: #137C8B;
+        font-family: 'Aleo';
+        font-style: bold;
+        font-size: 28px !important;
+        text-align: left;   
+    }
+    
+    #slide .paragraph {
+        color: black;
+        font-family: 'Open Sans';
+        font-size: 18px !important;
+        text-align: justify;
+    }
+    
 
 }
 
-@media (min-width:1024px) {
-
-    .slider {
-        height: 100vh;
-        float: right;
-        width: 55%;
-    }
-    .slidel {
-        height: 100vh;
-        float: left;
-        width: 45%;
-    }
-    
-    .description {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 30px;
-    }
-    
-    .title-h3{
-        color: black;
-        font-size: 60px !important;
-        text-align: center;   
-    }
-    
-    .paragraph {
-        color: black;
-        font-size: 35px !important;
-        text-align: center;
-    }
-    
-    .btn-link {
-    font-family: 'aleo-b';
-    font-size: 25px !important;
-    display:block;
-    margin:auto;
-    color: #FFB800!important;
-	}
-
-}
-
-@media (min-width:1280px) {
-
-    .slider {
-        height: 100vh;
-        float: right;
-        width: 55%;
-    }
-    .slidel {
-        height: 100vh;
-        float: left;
-        width: 45%;
-    }
-    
-    .description {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 30px;
-    }
-    
-    .title-h3{
-        color: black;
-        font-size: 60px !important;
-        text-align: center;   
-    }
-    
-    .paragraph {
-        color: black;
-        font-size: 35px !important;
-        text-align: center;
-    }
-    
-
-    .btn-link {
-    font-family: 'aleo-b';
-    font-size: 30px !important;
-    display:block;
-    margin:auto;
-    color: #FFB800!important;
-	}
-}
-
-@media (min-width:1920px) {
-
-    .slider {
-        height: 100vh;
-        float: right;
-        width: 55%;
-    }
-    .slidel {
-        height: 100vh;
-        float: left;
-        width: 45%;
-    }
-    
-    .description {
-        padding-left: 25px;
-        padding-right: 25px;
-        padding-top: 30px;
-    }
-    
-    .title-h3{
-        color: black;
-        font-size: 80px !important;
-        text-align: center;   
-    }
-    
-    .paragraph {
-        color: black;
-        font-size: 60px !important;
-        text-align: center;
-    }
-    
-
-    .btn-link {
-    font-family: 'aleo-b';
-    font-size: 45px !important;
-    display:block;
-    margin:auto;
-    color: #FFB800!important;
-	}
-}
 
 
 

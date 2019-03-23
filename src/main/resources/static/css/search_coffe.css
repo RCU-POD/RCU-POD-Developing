@@ -11,45 +11,73 @@
     font-family: 'aleo-b';
     src: url("../assets/fonts/aleo/Aleo-Bold.otf");
 }
-.searchcoffe {
+#searchcoffe {
     background-color: #2E1B12;
 
 }
 
-.titlesearch {
+#searchcoffe .titlesearch {
     color: #FFB800;
     text-align: center;
     font-family: 'Aleo';
-    padding-top: 30px;
+    padding-top: 13%;
 }
 
-.design {
-    color:white!important;
-    background: inherit;
-    background-color:transparent!important;
-    background-clip: padding-box;
-    border: 2px solid #ffffff!important;
-    border-radius: 20px!important;
+
+#searchcoffe .general_description {
+    margin-top: 10%!important;
+    padding-left: 20%!important;
+    padding-right: 20%!important;
 }
 
-.color {
-    color: #ffffff!important;
+#searchcoffe .search_descript {
+    margin: auto;
 }
 
-.cafeteria {
-    padding-top: 90px !important;
-    padding-bottom: 30px;
+#searchcoffe .title_descript{ 
+    font-family: 'Aleo';
+    color: rgb(255, 255, 255);
+    font-size: 25px !important;
 }
-.center {
+
+#searchcoffe .start_descript {
+    display: block;
+    font-family: 'Aleo';
+    color: #FFB800;
+    font-size: 20px !important;
+}
+
+#searchcoffe .text-descript{
+    font-family: 'Open Sans';
+    color: rgb(255, 255, 255);
+    font-size: 20px !important;
+    text-align: justify;
+    display: block;
+}
+
+#searchcoffe .text-descript_contact{
+    font-family: 'Open Sans';
+    color: rgb(167, 119, 16);
+    font-size: 20px !important;
+    text-align: justify;
+    display: block;
+}
+
+#searchcoffe .location_place {
+    margin-top: 10%!important;
+    padding-left: 20%!important;
+    padding-right: 20%!important;
+    height: 300px; 
+    width: 400px!important; 
+    background-color: white; 
+    width:90%!important;
+}
+
+#searchcoffe .center {
     justify-content: center !important;
     align-items: center !important;
 }
 
-@media (min-width:360px) {
-    .cafeteria {
-        padding-top: 30px !important;
-        padding-bottom: 30px;
-    }   
-}
+
 
 
