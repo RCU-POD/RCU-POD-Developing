@@ -12,7 +12,7 @@ $(document).ready(function(){
         $('.welcome').slideUp("slow",function(){
             
         });
-        $('.slide').show(); 
+        $('.slide').fadeIn(1200); 
         $('.slide2').show();
         $('.graphic-container').show();  
         $('.gallery-container').show();
