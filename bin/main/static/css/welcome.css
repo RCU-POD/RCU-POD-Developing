@@ -3,11 +3,13 @@
     src: url("../assets/fonts/intro-script-r/IntroScriptR-H2Base.otf");
 }
 .welcome {
-    background: url("../images/welcome/360Fondo.png");
+    background: url("../images/welcome/360Fondo.jpg");
     background-size: cover !important;
     width: 100% !important;
     height: 100vh !important;
     padding-top: 8em;
+    overflow: hidden;
+    overflow: auto;
 }
 .img-fluid {
     width: 12em;
@@ -58,7 +60,7 @@
 /*Responsive--------------------------------------------------------*/
 @media screen and (min-width: 360px) {
         .welcome {
-                background: url("../images/welcome/768Fondo.png");
+                background: url("../images/welcome/768Fondo.jpg");
                 height: 100vh;
                 padding-top: 7em;
          }
@@ -79,12 +81,18 @@
                 border-top-right-radius: 0.5em;
         }
 }
+@media screen and (min-width: 440px) {
+        .tittle-welcome  {
+                font-size: 4em;
+                text-align: center;
+        }
+}
 @media screen and (min-width: 600px) {
         .img-fluid {
                 width: 14em;
         }
         .tittle-welcome  {
-                font-size: 4em;
+                font-size: 5em;
         }
         .triangle-wel, .triangle-wel:before, .triangle-wel:after {
                 width:  1.3em;
@@ -95,14 +103,14 @@
 }
 @media screen and (min-width: 768px) {
         .welcome {
-                background: url("../images/welcome/1024Fondo.png"); 
+                background: url("../images/welcome/1024Fondo.jpg"); 
                 background-size: cover;
         }
         .img-fluid {
                 width: 15em;
         }
         .tittle-welcome  {
-                font-size: 5em;
+                font-size: 6em;
         }
         .triangle-wel, .triangle-wel:before, .triangle-wel:after {
                 width:  1.4em;
@@ -118,12 +126,12 @@
                 width: 16em;
         }
         .tittle-welcome  {
-                font-size: 6em;
+                font-size: 7em;
         }
 }
 @media screen and (min-width: 1024px) {
         .welcome{
-                background: url("../images/welcome/1280Fondo.png");          
+                background: url("../images/welcome/1280Fondo.jpg");          
         }
         .img-fluid {
                 width: 17em;
@@ -139,7 +147,7 @@
 }
 @media screen and (min-width:1500px) {
         .welcome{
-                background: url("../images/welcome/1680Fondo.png"); 
+                background: url("../images/welcome/1680Fondo.jpg"); 
                 padding-top: 9em;
         }
         .img-fluid {
