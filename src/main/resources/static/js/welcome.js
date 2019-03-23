@@ -4,7 +4,7 @@ var $element = $(document.querySelector('h1')),
     characters = '';
 
 function translationOptions() {
-	return Math.floor(Math.random() * 1000) - 500
+	return Math.floor(Math.random() * 800) - 750
 }
 
 //Loop through each character in element

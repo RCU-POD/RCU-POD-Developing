@@ -12,7 +12,11 @@ $(document).ready(function(){
         $('.welcome').slideUp("slow",function(){
             
         });
+<<<<<<< HEAD
         $('#slide').show(); 
+=======
+        $('#slide').fadeIn(1200); 
+>>>>>>> e7cf553e32eefcd7daa00072b27cf3f81fafff7f
         $('.slide2').show();
         $('.graphic-container').show();  
         $('.gallery-container').show();
