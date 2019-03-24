@@ -33,7 +33,7 @@ $("#star5").click(function(){
 /* Código Saulo Modal */
 var setStarsModal = function(star)
 {
-	var $star_rating_modal = $('.startsContainerRate .fa');
+	var $star_rating_modal = $('#startsContainerRate .fa');
 	
 	$star_rating_modal.each(function(i, value) {
 		if( parseInt($(value).attr("data-rating")) <= star ){
@@ -69,7 +69,7 @@ $("#star5Rate").click(function(){
 
 var setStarsCali = function(star)
 {
-	var $star_rating_modal = $('.starsContainerCali .fa');
+	var $star_rating_modal = $('#starsContainerCali .fa');
 	
 	$star_rating_modal.each(function(i, value) {
 		if( parseInt($(value).attr("data-rating")) <= star ){

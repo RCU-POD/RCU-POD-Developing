@@ -73,24 +73,24 @@
 	font-family: 'Aleo-R';
 }
 
-.startsContainerRate .fa.fa.star {
+#startsContainerRate .fa.fa.star {
 	font-size: 25px;
 }
 
-.startsContainerRate .starSelected {
+#startsContainerRate .starSelected {
 	color: #FFB800 !important;
 }
 
-.startsContainerRate .fa-star 
+#startsContainerRate .fa-star 
 {
 	color: #FFFFFF;
 }
 
-.startsContainerCali .starSelected {
+#startsContainerCali .starSelected {
 	color: #FFB800 !important;
 }
 
-.startsContainerRate
+#startsContainerRate
 {
 	margin-bottom: 15px;
     margin-top: 12px;
