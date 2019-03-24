@@ -15,6 +15,21 @@
     width: 12em;
     display: block;
     margin: auto;
+    z-index: 99999;
+    position: static;
+    opacity: 1;
+}
+.fade{
+        animation: 5s fade 1;
+}
+
+@keyframes fade {
+        0%{
+                opacity: 0;
+        }
+        50%{
+                opacity: 0.7;
+        }
 }
 /*Título Welcome Section-------------------------------------------*/
 .tittle-welcome  {
@@ -42,6 +57,7 @@
       height: 1em;
       background: #FFB800;
       border-top-right-radius: 0.5em;
+      opacity: 1;
    }
     .triangle-wel {
       margin: 0.5em auto 0 auto;
