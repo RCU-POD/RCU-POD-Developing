@@ -24,6 +24,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/philosophy.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/graphic.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/rateModal.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/navbar.css">
 </head>
 
 <body>
@@ -104,7 +105,43 @@
           <span class="sr-only">Next</span>
       </a>
     </div>
-  </section>
+  </section>  
+  <section class="menu">
+    <nav id="navbar" class="navbar navbar-dark bg-dark bg-nav ">
+       <div class="container d-flex ">
+             <a href="#" class="navbar-brand d-flex align-items-center">
+             <img  src="images/navbarIcon.png" alt="">
+             </a>
+
+             <div id='menu'class="standard-menu">
+                <ul class="menu-table">
+                   <li><a class="nav-link" href='#'>HOME</a></li>
+                   <li><a class="nav-link" href='#gallery'>GALERÍA</a></li>
+                   <li><a class="nav-link" href='#graphic'>CURIOSIDADES</a></li>
+                   <li><a class="nav-link" href='#searchcoffe'>BUSCA/RECOMIENDA</a></li>
+                   <li><a class="nav-link" href='#contact'>CONTACTO</a></li>
+                </ul>
+                
+             </div>
+             <div class="fixed-top main-menu">
+                   <div class="flex-center p-5">
+                      <ul class="nav flex-column">
+                         <li class="nav-title">Beneficio del Café</li>
+                         <li class="nav-item delay-1"><a class="nav-link control" href="#">HOME</a></li>
+                         <li class="nav-item delay-2"><a class="nav-link control" href="#gallery">GALERÍA</a></li>
+                         <li class="nav-item delay-3"><a class="nav-link control" href="#graphic">CURIOSIDADES</a></li>
+                         <li class="nav-item delay-4"><a class="nav-link control" href="#searchcoffe">BUSCA/RECOMIENDA</a></li>
+                         <li class="nav-item delay-5"><a class="nav-link control" href="#contact">CONTACTO</a></li>
+                      </ul>
+                   </div>
+                </div>
+          <a class="nav-button ml-auto mr-4 "><span id="nav-icon3" class="ham"><span></span><span></span><span></span><span></span></span></a>
+       </div>
+     </nav>
+    <!--navbar end-->
+    
+    <!--main-menu end-->
+ </section>
     
     <!--<section class="slide2">
       <div id="carouselExampleIndicators" class="carousel slide sliderBg" data-ride="carousel">
@@ -137,7 +174,7 @@
 
     </section>-->
     <!--Gallery Section Starts-------------------------------------------------------------->
-   	<section class="gallery-container">
+   	<section id="gallery" class="gallery-container">
       <h1 class="title-gallery">Galeria</h1>
        <!--1st photo-->
        <div class="gallery">
@@ -218,7 +255,7 @@
     </section>
     <!--Gallery Section Ends-------------------------------------------------------------->
  <!--Graphic Section Starts------------------------------------------------------------>
- <section class="graphic-container">
+ <section id="graphic"class="graphic-container">
   <h1 class="titleGraphic">Curiosidades del Café</h1>
   <div class="distribution-map">
       <img class="imgG" src="./images/graphic/Continents.svg" alt="">
@@ -419,7 +456,7 @@
 	</section>
 
   <!--Contact Section Starts-------------------------------------------------------------->
- <section class="contact-sec container">
+ <section id="contact" class="contact-sec container">
     <table class="table" cellpadding="0" cellspacing="0">
       <tr>
         <td class="tdLeft">
@@ -522,6 +559,8 @@
    	<script src="js/scrollUp.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/scrollUp.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/welcome.js"></script> 
     <script src="js/go.js"></script>
