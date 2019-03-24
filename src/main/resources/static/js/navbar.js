@@ -74,7 +74,7 @@ $(document).ready(function () {
     $('body').toggleClass('nav-open');
   });
 
-  $('a[href^="#"]').click(function () {
+  $('.nav-link').click(function () {
     var destino = $(this.hash);
     if (destino.length == 0) {
       destino = $('section[id="' + this.hash.substr(1) + '"]');
