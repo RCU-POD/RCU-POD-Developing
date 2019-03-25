@@ -32,7 +32,7 @@ $element.find('span.character').each(function(){
                opacity: 0
             })
 	
-	if ($this.index() % 4 === 0) { //Every second
+	if ($this.index() % 3 === 0) { //Every second
       $this.css({
                transform: 'translateX('+ translationOptions() +'px)' 
             });
@@ -63,8 +63,8 @@ $(window).on('scroll', function(){
 		var $this = $(this),
 			 direction = $this.attr('data-integer');			
 		if (!$this.hasClass('animationStop')) {			
-			var currentTransformationX = parseInt($this.css('transform').split(', ')[4]),
-				 currentTransformationY = parseInt($this.css('transform').split(', ')[5]);
+			var currentTransformationX = parseInt($this.css('transform').split(', ')[2]),
+				 currentTransformationY = parseInt($this.css('transform').split(', ')[3]);
 			
 			$this.attr('data-transformationX', currentTransformationX);
 			directionX = currentTransformationX;

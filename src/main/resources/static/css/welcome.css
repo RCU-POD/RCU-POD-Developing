@@ -15,15 +15,13 @@
     width: 12em;
     display: block;
     margin: auto;
-    z-index: 99999;
-    position: static;
     opacity: 1;
 }
-.fade{
-        animation: 5s fade 1;
+.fadeImg{
+        animation: 5s fadeImg 1;
 }
 
-@keyframes fade {
+@keyframes fadeImg {
         0%{
                 opacity: 0;
         }
@@ -57,7 +55,6 @@
       height: 1em;
       background: #FFB800;
       border-top-right-radius: 0.5em;
-      opacity: 1;
    }
     .triangle-wel {
       margin: 0.5em auto 0 auto;
@@ -79,6 +76,7 @@
                 background: url("../images/welcome/768Fondo.jpg");
                 height: 100vh;
                 padding-top: 7em;
+                opacity: 1;
          }
         .img-fluid {
                 width: 13em;
