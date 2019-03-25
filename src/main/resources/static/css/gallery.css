@@ -70,6 +70,13 @@
     background-image: url('../images/gallery/cafe-coffee-cup-48520.jpg');
 }
 
+
+.button-gallery-close{
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
+
 .image-gallery {
     display: block;
     width: 100%;
