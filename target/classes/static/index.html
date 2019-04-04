@@ -25,14 +25,15 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/graphic.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/rateModal.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/navbar.css">
+
 </head>
 
 <body>
 	<section class="welcome text-xs-center">
-            <img class="img-fluid" src="images/welcome/logo.png" alt="">
+            <img class="img-fluid fadeImg" src="images/welcome/logo.png" alt="">
             <h1 class="tittle-welcome">Beneficio del Café</h1>
             <div class="mx-auto div-tri">
-              <a href="#" class="triangle-wel"></a>
+              <a href="#" class="triangle-wel fadeImg"></a>
             </div>
   </section>
   
@@ -105,7 +106,7 @@
           <span class="sr-only">Next</span>
       </a>
     </div>
-  </section>  
+  </section>
   <section class="menu">
     <nav id="navbar" class="navbar navbar-dark bg-dark bg-nav ">
        <div class="container d-flex ">
@@ -143,38 +144,48 @@
     <!--main-menu end-->
  </section>
     
-    <!--<section class="slide2">
-      <div id="carouselExampleIndicators" class="carousel slide sliderBg" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-          
-        </ol>
-        <div class="carousel-inner ">
-          <div class="carousel-item active">
-            <img src="images/philosophy/Frases-Filosofía-01.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/philosophy/Frases-Filosofía-02.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="images/philosophy/Frases-Filosofía-03.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-              <img src="images/philosophy/Frases-Filosofía-04.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-              <img src="images/philosophy/Frases-Filosofía-05.png" class="d-block w-100" alt="...">
-          </div>
+ <section class="slide2">
+  <div id="carouselExampleIndicators" class="carousel slide sliderBg " data-ride="carousel">
+    <div>
+        <h1 class="title-pilosophy"> Nuestra Filosofía</h1>
+    </div>
+     
+                
+     <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+     </ol>
+     <div class="carousel-inner carousel-content ">
+        
+        <div class="carousel-item phrase active">
+           <h2>"El café es un bálsamo para el corazón y el espíritu"</h2>
+           <h3>~Giuseppe Verdi~</h3>
         </div>
-      </div>
-
-    </section>-->
+        
+        <div class="carousel-item phrase">
+           <h2>"El café huele a cielo recién molido"</h2>
+           <h3>~Jessi Lane Adams~</h3>
+        </div>
+        <div class="carousel-item phrase">
+           <h2>"Yo orquesto mis mañanas al son del café"</h2>
+           <h3>~Harry Mathar~</h3>
+        </div>
+        <div class="carousel-item phrase ">
+           <h2>"Cuando bebemos café, las ideas marchan como un ejército"</h2>
+           <h3>~Honoré de Balzac~</h3>
+        </div>
+        <div class="carousel-item phrase">
+           <h2>"La vida es sólo una taza de café tras otra y no preocuparse por otra cosa"</h2>
+           <h3>~Bertrand Arthur William Russell~</h3>
+        </div>
+     </div>
+  </div>
+</section>
     <!--Gallery Section Starts-------------------------------------------------------------->
-   	<section id="gallery" class="gallery-container">
+   	<section class="gallery-container">
       <h1 class="title-gallery">Galeria</h1>
        <!--1st photo-->
        <div class="gallery">
@@ -224,22 +235,21 @@
       <div class="modal fade" role="dialog" tabindex="-1" id="dialog">
         <div class="modal-dialog  modal-full-gallery" role="document">
           <div class="modal-content modal-content-gallery">
-            <div class="modal-header modal-header-gallery">
-              <div class="col-12">
-              <button
-                type="button"
-                class="close float-right"
-                data-dismiss="modal"
-                aria-label="Close"
-              >
-                <span aria-hidden="true" class="x-modal-gallery">
-                  <i class="fa fa-times"></i>
-                </span>
-              </button>
-              </div>
+            
               
-            </div>
-            <div class="modal-body">
+              
+              
+              <div class="my-auto">
+                  <button
+                    type="button"
+                    class="close button-gallery-close"
+                    data-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <span aria-hidden="true" class="x-modal-gallery">
+                      <i class="fa fa-times"></i>
+                    </span>
+                  </button>
               <img
                 src="../images/gallery/coffe5.jpg"
                 class="image-modal-gallery p-1"
@@ -255,7 +265,7 @@
     </section>
     <!--Gallery Section Ends-------------------------------------------------------------->
  <!--Graphic Section Starts------------------------------------------------------------>
- <section id="graphic"class="graphic-container">
+ <section class="graphic-container">
   <h1 class="titleGraphic">Curiosidades del Café</h1>
   <div class="distribution-map">
       <img class="imgG" src="./images/graphic/Continents.svg" alt="">
@@ -456,7 +466,7 @@
 	</section>
 
   <!--Contact Section Starts-------------------------------------------------------------->
- <section id="contact" class="contact-sec container">
+ <section class="contact-sec container">
     <table class="table" cellpadding="0" cellspacing="0">
       <tr>
         <td class="tdLeft">
@@ -488,7 +498,7 @@
         </td>
       </tr>
     </table>
-    <a class="scrollup"><i class='fas fa-play' ></i></a>
+   <a href="#" class="to-top"><i class="fa fa-play fa-rotate-270"></i></a>
   </section>
   <!--Contact Section Ends-------------------------------------------------------------->
 
@@ -526,16 +536,15 @@
    	<script src="js/scrollUp.js"></script>
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/navbar.js"></script>
-    <script src="js/scrollUp.js"></script>
     <script src="js/scripts.js"></script>
     <script src="js/welcome.js"></script> 
-    <script src="js/go.js"></script>
     <script src="js/gallery.js"></script>
     <script src="js/recommendCoffe.js"></script>
     <script src="js/shieldui-all.min.js"></script>
     <script src="js/data.js"></script>
     <script src="js/searchcoffe.js"></script>
     <script src="js/preloader.js"></script>
+    <script src="js/navbar.js"></script>
+
     </body>
 </html>

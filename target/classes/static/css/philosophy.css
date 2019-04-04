@@ -1,0 +1,53 @@
+.sliderBg{
+    background-image: url("../images/philosophy/Fondo frases-NF.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+
+.title-pilosophy{
+    color: #ffffff;
+    font-family: 'Aleo', serif;
+    padding-top: 1em;
+}
+.carousel-indicators li {
+    max-width: 10px;
+    height: 10px;
+    border-radius: 100%;
+}
+.carousel-content {
+    align-items:center;
+    text-align: center;
+    display: flex;
+      
+}
+
+#text-carousel {
+  width: 100%;
+  height: auto;
+  padding: 50px;
+}
+.item {
+    background: #333;
+    text-align: center;
+    height: 300px;
+}
+.phrase{
+    margin:18% ;
+    height: 100%;
+    width:100%;
+    text-align: center;
+    flex-direction: column;
+   
+   
+}
+.phrase h2{
+    color:#FFB800 ;
+    font-family: 'Aleo-b';
+}
+.phrase h3{
+    color:#ffffff ;
+    font-family: 'Aleo-b';
+}

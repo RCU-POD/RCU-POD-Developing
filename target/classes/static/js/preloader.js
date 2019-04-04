@@ -1,5 +1,6 @@
 $("#slide").css("display", "none");
 $(".slide2").css("display", "none");
+$(".menu").css("display", "none");
 $(".gallery-container").css("display", "none");
 $(".graphic-container").css("display", "none");
 $("#searchcoffe").css("display", "none");
@@ -14,6 +15,7 @@ $(document).ready(function(){
         });
         $('#slide').show();
         $('.slide2').show();
+        $('.menu').show();
         $('.gallery-container').show(); 
         $('.graphic-container').show();  
         $('#searchcoffe').show();
