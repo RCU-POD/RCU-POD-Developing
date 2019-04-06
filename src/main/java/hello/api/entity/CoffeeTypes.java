@@ -9,18 +9,16 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-@Table(name="contact_us")
+@Table(name="coffee_types")
 @Entity
-public class ContactUs implements Serializable{
-	
-	public ContactUs(long id, String name, String email, String message) {
+public class CoffeeTypes implements Serializable{
+
+	public CoffeeTypes(long id, String name) {
 		this.id = id;
 		this.name = name;
-		this.email = email;
-		this.message = message;
 	}
 	
-	public ContactUs() {
+	public CoffeeTypes() {
 		
 	}
 
@@ -31,12 +29,6 @@ public class ContactUs implements Serializable{
 	
 	@Column(name="name")
 	private String name;
-	
-	@Column(name="email")
-	private String email;
-	
-	@Column(name="message")
-	private String message;
 
 	public long getId() {
 		return id;
@@ -53,21 +45,6 @@ public class ContactUs implements Serializable{
 	public void setName(String name) {
 		this.name = name;
 	}
-
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getMessage() {
-		return message;
-	}
-
-	public void setMessage(String message) {
-		this.message = message;
-	}
-
+	
+	
 }
