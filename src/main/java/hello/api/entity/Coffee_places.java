@@ -15,7 +15,7 @@ import javax.persistence.Id;
 public class Coffee_places implements Serializable {
 	
 	public Coffee_places(long id, String name, String address, String facebook, String twitter, String instagram,
-			String youtube, Double latitude, Double longuitude, long states_id, long citys_id, int average_stars) {
+			String youtube, Double latitude, Double longuitude, long states_id, long citys_id, double average_stars) {
 		//super();
 		this.id = id;
 		this.name = name;
@@ -67,7 +67,7 @@ public class Coffee_places implements Serializable {
 	private long citys_id;
 	
 	@Column(name="average_stars")
-	private int average_stars;
+	private double average_stars;
 
 	public long getId() {
 		return id;
@@ -157,11 +157,11 @@ public class Coffee_places implements Serializable {
 		this.citys_id = citys_id;
 	}
 
-	public int getAverage_stars() {
+	public double getAverage_stars() {
 		return average_stars;
 	}
 
-	public void setAverage_stars(int average_stars) {
+	public void setAverage_stars(double average_stars) {
 		this.average_stars = average_stars;
 	}
 

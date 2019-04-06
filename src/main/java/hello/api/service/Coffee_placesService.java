@@ -43,6 +43,8 @@ public class Coffee_placesService {
 		}
 	}
 	
+	
+	
 	public boolean delete(long id) {
 		try {
 			

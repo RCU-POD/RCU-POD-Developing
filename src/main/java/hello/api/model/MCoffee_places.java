@@ -5,7 +5,7 @@ import hello.api.entity.Coffee_places;
 public class MCoffee_places {
 	
 	public MCoffee_places(long id, String name, String address, String facebook, String twitter, String instagram,
-			String youtube, Double latitude, Double longuitude, long states_id, long citys_id, int average_stars) {
+			String youtube, Double latitude, Double longuitude, long states_id, long citys_id, double average_stars) {
 		//super();
 		this.id = id;
 		this.name = name;
@@ -58,7 +58,7 @@ public class MCoffee_places {
 	private long states_id;
 	private long citys_id;
 	
-	private int average_stars;
+	private double average_stars;
 
 	public long getId() {
 		return id;
@@ -148,11 +148,11 @@ public class MCoffee_places {
 		this.citys_id = citys_id;
 	}
 
-	public int getAverage_stars() {
+	public double getAverage_stars() {
 		return average_stars;
 	}
 
-	public void setAverage_stars(int average_stars) {
+	public void setAverage_stars(double average_stars) {
 		this.average_stars = average_stars;
 	}
 
