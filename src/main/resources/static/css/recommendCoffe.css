@@ -35,6 +35,7 @@
   background-color: #9F6138;
   border-radius: 10px;
   border-width: 0;
+  color: white;
 }
 
 .recommendTextarea::placeholder {
