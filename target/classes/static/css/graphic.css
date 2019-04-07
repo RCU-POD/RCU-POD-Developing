@@ -6,6 +6,38 @@
   position: relative;
   box-sizing: border-box;
 }
+#point-1{
+  top:43%;
+  left:16%;
+}
+#point-2{
+  top:62%;
+  left:32%;
+}
+#point-3{
+  top:58%;
+  left:82%
+}
+#point-4{
+  top:14%;
+  left:55%,
+}
+#point-5{
+  top:50%;
+  left:60%;
+}
+#point-6{
+  top:30%;
+  left:51.2%;
+}
+#point-7{
+  top:46%;
+  left:81.8%;
+}
+#point-8{
+  top:55%;
+  left:25%;
+}
 .linksG{
     color: #2E1B12;
 }

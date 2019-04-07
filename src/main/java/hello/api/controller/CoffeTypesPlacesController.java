@@ -28,7 +28,7 @@ public class CoffeTypesPlacesController {
 	CoffeTypesPlacesService service;
 	
 	@GetMapping("/coffetypesplaces")
-	public List getReviews() {
+	public List getCoffeTypesPlaces() {
 		return service.getAll();
 	}
 	

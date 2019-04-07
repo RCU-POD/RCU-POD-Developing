@@ -31,17 +31,17 @@ public class ContactUsController {
 	ContactUsService service;
 	
 	@GetMapping("/contactus")
-	public List getReviews() {
+	public List getContactUs() {
 		return service.getAll();
 	}
 	
 	@PostMapping("/contactus")
-	public boolean addReviews(@RequestBody @Valid ContactUs contactus) {
+	public boolean addContactUs(@RequestBody @Valid ContactUs contactus) {
 		return service.create(contactus);
 	}
 	
 	@PutMapping("/contactus")
-	public boolean updateReviews(@RequestBody @Valid ContactUs contactus) {
+	public boolean updateContactUs(@RequestBody @Valid ContactUs contactus) {
 		return service.update(contactus);
 	}
 	
@@ -52,7 +52,7 @@ public class ContactUsController {
 	}
 	
 	@DeleteMapping("/contactus/{id}")
-	public boolean deleteReviews(@PathVariable("id") long id) {
+	public boolean deleteContactUs(@PathVariable("id") long id) {
 		return service.delete(id);
 	}
 	
