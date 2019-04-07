@@ -3,24 +3,34 @@
     src: url("../assets/fonts/intro-script-r/IntroScriptR-H2Base.otf");
 }
 .bg-nav{
-    
     width: 100%;
-    max-height: 8%;
+    max-height: 70%;
     z-index: 1000;   
     transition: 0.3s;
 }
-    
-.standard-menu ul{
-    text-align: right;
-    margin: 0;
+.iconNav{
+    margin-top: -0.3em;
+}
+.menu{
+    background-color: #9F6138;    
+} 
+#menu{
+    text-align: center;
+    margin-top: 0.7em;
+    justify-content: center;
+    align-content: center;
 }
 .menu-table{
     visibility: visible;
 }
+.standard-menu ul{
+    text-align: right;
+    margin: 0;
+}
 
 .standard-menu ul li{
     display: inline-block;
-    padding: 0 0 0 2em;
+    padding: 0 0 0 1em;
     line-height: .5em; 
 }
 .standard-menu ul li a{
@@ -32,7 +42,7 @@
 }
 
 .nav-title{
-    font-size: 7rem;
+    font-size: 6rem;
     color: #FFB800;
     font-family: 'Intro-Script-R';
 }
@@ -79,3 +89,102 @@
 .nav-open #nav-icon3 span:nth-child(4){top:9px;width:0;left:50%}
 
 .flex-center{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-webkit-align-items:center;-ms-flex-align:center;align-items:center;height:100%}
+
+
+/*-Responsive-------------------------------------------------------------------*/
+@media screen and (max-width: 1200px){
+    .standard-menu ul li{
+        padding: 0 0 0 0.1em;
+        font-size: 0.9em;
+    }
+    .ham{
+        margin-top: 0.3em;
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    .standard-menu ul li{
+        padding: 0 0 0 0.1em;
+        font-size: 0.85em;
+    }
+    .ham{
+        margin-top: 0.5em;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .nav-title{
+        font-size: 5em;
+    }
+}
+
+@media screen and (max-width: 800px){
+    .bg-nav{
+        max-height: 60%;
+        }   
+    .standard-menu ul li{
+        padding: 0 0 0 0.01em;
+        font-size: 0.8em;
+        }
+    .ham{
+        margin-top: 0.9em;
+        }
+}
+@media screen and (max-width: 700px){
+        .ham{
+            margin-top: 1.3em;
+            }
+        .nav-title{
+            font-size: 4em;
+        }
+    }
+
+@media screen and (max-width: 600px){
+    .bg-nav{
+        max-height: 60%;
+        }
+    
+    .standard-menu ul li{
+        padding: 0 0 0 0.01em;
+        font-size: 0.75em;
+        }
+    .ham{
+        margin-top: 1.6em;
+        }
+    .nav-title{
+        font-size: 3em;
+        }
+}
+
+@media screen and (max-width: 500px){
+    .bg-nav{
+        max-height: 60%;
+        }
+    .standard-menu ul li{
+        padding: 0 0 0 0.01em;
+        font-size: 0.7em;
+        }
+    .ham{
+        margin-top: 1.6em;
+        }   
+    .nav-title{
+        font-size: 2.5em;
+        }
+}
+
+@media screen and (max-width: 400px){
+    .bg-nav{
+        width: 100%;
+        max-height: 40%;
+        z-index: 1000;   
+        transition: 0.3s;
+        }
+    .standard-menu ul li{
+        padding: 0px;
+        font-size: 0.65em;
+        }
+    .ham{
+        margin-top: 1.6em;
+        }
+}
