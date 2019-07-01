@@ -1,0 +1,192 @@
+.graphic-container {
+  text-align: center;
+  overflow-x: hidden;
+}
+.distribution-map, .content, .centered-y, .imgG {
+  position: relative;
+  box-sizing: border-box;
+}
+#point-1{
+  top:43%;
+  left:16%;
+}
+#point-2{
+  top:62%;
+  left:32%;
+}
+#point-3{
+  top:58%;
+  left:82%
+}
+#point-4{
+  top:14%;
+  left:55%,
+}
+#point-5{
+  top:50%;
+  left:60%;
+}
+#point-6{
+  top:30%;
+  left:51.2%;
+}
+#point-7{
+  top:46%;
+  left:81.8%;
+}
+#point-8{
+  top:55%;
+  left:25%;
+}
+.linksG{
+    color: #2E1B12;
+}
+.titleGraphic {
+    color: #137C8B;
+    font-family: 'Aleo', serif;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+.titleG{
+    font-size: 1em;
+    color: #137C8B;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+.textG{
+  margin-left: 4pt;
+  margin-right: 4pt;
+  color: #137C8B;
+  font-family: 'Open Sans','serif';
+  font-size: 78%;
+}
+.sources{
+    font-size: 0.8em;
+    color: #9F6138;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+.centered-y {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.distribution-map {
+  margin: 20px auto;
+  padding: 0 100px;
+  position: relative;
+  width: 88%;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.distribution-map > img {
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.distribution-map .map-point {
+  cursor: pointer;
+  outline: none;
+  z-index: 0;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  border-radius: 20px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=85);
+  opacity: 0.95;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -moz-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  -o-transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  -webkit-transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out, z-index 0.25s ease-in-out;
+  -webkit-transition-delay: 0.25s, 0.25s, 0.25s, 0.25s;
+  transition: opacity 0.25s ease-in-out 0.25s, width 0.25s ease-in-out 0.25s, height 0.25s ease-in-out 0.25s, z-index 0.25s ease-in-out 0.25s;
+  background: rgba(255,255,255, 1); /*modal fill*/
+  border: 4px solid #FFB800;
+}
+.distribution-map .map-point .content {
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+  width: 100%;
+  height: 100%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  overflow: overlay;
+}
+.distribution-map .map-point:active, .distribution-map .map-point:focus {
+  margin: 0;
+  padding: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  width: 300px;
+  height: 150px;
+  z-index: 1;
+  transition: opacity 0.25s ease-in-out, width 0.25s ease-in-out, height 0.25s ease-in-out;
+}
+.distribution-map .map-point:active .content, .distribution-map .map-point:focus .content {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  -moz-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -o-transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -webkit-transition: opacity 0.25s ease-in-out, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  -webkit-transition-delay: 0.25s, 0s, 0s;
+  transition: opacity 0.25s ease-in-out 0.25s, height 0.25s ease-in-out, overflow 0.25s ease-in-out;
+  overflow: hidden;
+}
+.distribution-map .map-point:active .content a:hover, .distribution-map .map-point:active .content a:active, .distribution-map .map-point:focus .content a:hover, .distribution-map .map-point:focus .content a:active {
+  color: #afe1fa;
+}
+
+/*Responsive-------------------------------------------------------------------------------*/
+@media screen and (max-width: 750px) {
+.titleG{
+    font-size: 0.72em;
+}
+.textG{
+  font-size: 55%;
+  margin-left: 3pt;
+  margin-right: 3pt;
+}
+.distribution-map .map-point:active, .distribution-map .map-point:focus {
+  width: 220px;
+  height: 120px;
+}
+.distribution-map .map-point {
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+}
+.sources{
+  font-size: 0.5em;
+}
+.linksG{
+  font-size: 70%;
+}
+/*
+}
+@media screen and (max-width: 1024px) {
+  .titleG{
+      font-size: 0.75em;
+  }
+  .textG{
+    font-size: 70%;
+    margin-left: 3pt;
+    margin-right: 3pt;
+  }
+  .distribution-map .map-point:active, .distribution-map .map-point:focus {
+    width: 260px;
+    height: 135px;
+  }
+  }
+*/

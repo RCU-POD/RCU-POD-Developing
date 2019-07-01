@@ -1,0 +1,94 @@
+.recommendCoffeContainer {
+  background-color: #2E1B12;
+}
+
+.recommendTitle {
+  color: #FFB800;
+  text-align: center;
+  font-family: 'Aleo';
+  padding-top: 30px;
+}
+
+.recommendInputContainer {
+  padding-bottom: 10px;
+}
+
+.recommendInputContainer > input {
+  background-color: #9F6138;
+  border-radius: 10px;
+  border-width: 0;
+  font-weight: lighter;
+  color: white;
+}
+
+.recommendInputContainer > input:focus {
+  background-color: #9F6138;
+  color: white;
+  box-shadow: 0 0 0 0.2rem rgba(255,184,0,0.7);
+}
+
+.recommendInputContainer > input::placeholder {
+  color: white;
+}
+
+.recommendTextarea {
+  background-color: #9F6138;
+  border-radius: 10px;
+  border-width: 0;
+  color: white;
+}
+
+.recommendTextarea::placeholder {
+  color: white;
+}
+
+.recommendTextarea:focus {
+  background-color: #9F6138;
+  color: white;
+  box-shadow: 0 0 0 0.2rem rgba(255,184,0,0.7);
+}
+
+.recommendTextCalification {
+  color: #FFB800;
+  text-align: left;
+  font-family: 'Aleo';
+  font-weight: bold;
+}
+
+.recommendButton {
+  background-color: #FFB800;
+  font-family: 'Aleo';
+  font-weight: bold;
+  border: 0px;
+  border-radius: 10px;
+  height: 70px;
+  width: 170px;
+  font-size: 35px;
+}
+
+.recommendButton:hover {
+  background-color: #FFB800;
+}
+
+.recommendButton:active {
+  background-color: #FFB800;
+}
+.recommendButton:focus {
+  background-color: #FFB800;
+  box-shadow: 0 0 0 0.2rem rgba(255,184,0,0.7);
+}
+
+.fa.fa-star {
+  font-size: 25px;
+}
+
+
+.starSelected {
+  color: #FFB800 !important;
+}
+
+.fa-star {
+  color: gray;
+}
+
+

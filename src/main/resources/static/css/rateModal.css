@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'open-sans-r';
+    src: url("../assets/fonts/Open_Sans/OpenSans-Regular.ttf");
+
+    font-family: 'open-sans-l';
+    src: url("../assets/fonts/Open_Sans/OpenSans-Light.ttf");
+
+    font-family: 'aleo-r';
+    src: url("../assets/fonts/aleo/Aleo-Regular.otf");
+
+    font-family: 'aleo-b';
+    src: url("../assets/fonts/aleo/Aleo-Bold.otf");
+}
+
+#rate-textarea {
+	resize: none;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	width: 70%;
+	margin-left: 15%;
+	font-family: 'open-sans-l';
+	font-weight: bold;
+}
+
+#rate-textarea::placeholder {
+	color: black;
+}
+
+#rate-content {
+	border-radius: 20px;
+	background: #137C8B;
+	color: #FFFFFF;
+	/*width: 600px;
+	height: 300px;*/
+	width: 110%;
+}
+
+#modal-center {
+	position: relative;
+	top: 50%;
+	/*left: 50%;*/
+	transform: translateY(-50%) !important;
+}
+
+.rate-close {
+	color: #FFFFFF;
+}
+
+.rate-button 
+{
+	color: #FFFFFF;
+	background: #FFB800;
+	border-radius: 10px;
+	width: 130px;
+	font-family: 'Aleo-B';
+	border-color: #FFB800;
+	font-size: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.rate-button:hover{
+	background: #FFB800;
+	border-color: #FFB800;
+}
+
+.modal-body h3 {
+	margin-top: 20px;
+	font-family: 'Aleo-R';
+}
+
+.modal-body h5 {
+	font-family: 'Aleo-R';
+}
+
+#startsContainerRate .fa.fa.star {
+	font-size: 25px;
+}
+
+#startsContainerRate .starSelected {
+	color: #FFB800 !important;
+}
+
+#startsContainerRate .fa-star 
+{
+	color: #FFFFFF;
+}
+
+#startsContainerCali .starSelected {
+	color: #FFB800 !important;
+}
+
+#startsContainerRate
+{
+	margin-bottom: 15px;
+    margin-top: 12px;
+}
+
+@media only screen and (max-width: 600px) {
+	#rate-content 
+	{
+		width: 100%;
+	}
+	
+	.modal-body h3 {
+		font-size: 1.3em;
+	}
+
+	.modal-body h5 {
+		font-size: 1.08em;
+	}
+}
